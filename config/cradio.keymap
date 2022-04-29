@@ -222,7 +222,7 @@
 		&kp ESC  &mwh SCROLL_LEFT &mmv MOVE_UP &mwh SCROLL_RIGHT &kp Q 		&kp K_BACK  &kp LC(LS(TAB))   &kp RC(TAB) &kp K_FORWARD &kp BKSP
 		&kp TAB &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &kp DEL  		&kp LEFT &kp DOWN  &kp UP &kp RIGHT &kp ENTER
 		&kp GRAVE &mkp RCLK  &mwh SCROLL_UP &mwh SCROLL_DOWN &kp LSHIFT   	&mkp LCLK &td HOME PG_DN  &td END PG_UP  &kp Q &kp Q  
-					 &to 0 &kp LCTRL 					&kp ALT &to 1 
+					 &to 0 &kp LCTRL 					&kp LALT &to 1 
 
 		>;
 		};
