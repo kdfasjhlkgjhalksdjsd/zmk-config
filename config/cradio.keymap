@@ -219,18 +219,11 @@
 
 		tri_layer {
 		bindings = <
-		&trans  &mwh SCROLL_LEFT    &mmv MOVE_UP    &mwh SCROLL_RIGHT    &trans &trans    &kp LC(LS(TAB))   &kp RC(TAB) &kp LG(LBKT) &trans
-		&kp TAB &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &trans  						&trans &kp DOWN  &hm RALT UP &hm RCTL RIGHT &kp LG(RBKT)
-		&kp LSHIFT &mkp RCLK  &mwh SCROLL_UP &mwh SCROLL_DOWN &to 0   				&kp RGUI &td HOME PG_DN  &td END PG_UP  &trans &kp RSHIFT  
+		&trans  &mwh SCROLL_LEFT    &mmv MOVE_UP    &mwh SCROLL_RIGHT    	&trans &trans    &kp LC(LS(TAB))   &kp RC(TAB) &kp LG(LBKT) &trans
+		&kp TAB &mmv MOVE_LEFT &mmv MOVE_DOWN &mmv MOVE_RIGHT &trans  		&trans &kp DOWN  &hm RALT UP &hm RCTL RIGHT &kp LG(RBKT)
+		&kp LSHIFT &mkp RCLK  &mwh SCROLL_UP &mwh SCROLL_DOWN &to 0   		&kp RGUI &td HOME PG_DN  &td END PG_UP  &trans &kp RSHIFT  
 					 &to 0 &trans &trans &kp RGUI 
-		>;
-		};
-		bt {
-		bindings = <
-		&trans  &trans &trans &trans &trans &trans &trans &trans &trans &trans 
-		&bootloader  &trans &trans &trans &trans &trans &trans &trans &trans &trans 
-		&bt BT_PRV  &bt BT_NXT &bt BT_CLR &trans &to 0   				&to 1 &trans  &trans  &trans &trans   
-					 &to 0 &trans  					&trans &to 1 
+
 		>;
 		};
         
