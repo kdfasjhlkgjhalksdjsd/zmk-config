@@ -212,8 +212,8 @@
 		bindings = <
 		&kp ESC  &kp C_PREV   &kp C_NEXT  &kp LBKT    &kp RBKT		&kp MINUS &kp N7 &kp N8 &kp N9 &kp BKSP
 		&kp TAB  &kp C_VOL_DN  &kp C_VOL_UP  &kp SEMI   &kp SQT 	&kp EQUAL &kp N4 &kp N5 &kp N6 &kp ENTER
-  		&hs LSHIFT TILDE    &kp GRAVE 	&kp LA(LBKT) &kp LA(LS(LBKT))  &to 0 	&to 2 &kp LPRN &kp RPRN &kp RBKT  &kp RSHIFT
-					    &to 0 &trans  					&trans &to 2 
+  		&kp Q    &kp C_BRI_UP  &kp C_BRI_DN  &kp BSLH  &kp LSHIFT  	&kp N0    &kp N1 &kp N2 &kp N3  &to 3
+					    &to 0 &kp LCTRL  					&kp LALT &to 2 
 		>;
 		};
 
