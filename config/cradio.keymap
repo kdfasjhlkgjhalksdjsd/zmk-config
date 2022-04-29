@@ -203,7 +203,7 @@
 		bindings = <
 		&kp Q &kp W &kp F &kp P &kp B 						&kp J &kp L  &kp U    &kp Y  &kp BKSP
 		&kp A &kp R &hm LALT S &hm LGUI T &kp G 			       	&kp M  &hm RGUI N &hm RALT E &kp I &kp O
-		&hs LSHIFT Q &kp V &kp W &kp D &mt LC(LS(LALT)) SPC &kp E &kp H  &kp Y &td EXCL DOT &hs RSHIFT X
+		&kp Z &kp X &kp C &kp D &kp V 						&kp K &kp H  &kp Y &td EXCL DOT &hs RSHIFT X
           				&mt LC(LS(LALT)) SPC &trans &trans &kp E
 		>;
 		};
