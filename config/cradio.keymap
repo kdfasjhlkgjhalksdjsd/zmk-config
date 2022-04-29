@@ -210,7 +210,7 @@
 
        		left_layer {
 		bindings = <
-		&kp ESC  &kp C_PREV   &kp C_NEXT  &kp LBKT    &kp RBKT		&trans &kp LS(COMMA) &kp LS(DOT) &kp CARET &trans
+		&kp ESC  &kp C_PREV   &kp C_NEXT  &kp LBKT    &kp RBKT		&kp MINUS &kp N7 &kp N8 &kp N9 &kp BKSP
 		&kp TAB    &hm LCTL EQUAL    &hm LALT LA(RBKT)      &hm LGUI LA(LS(RBKT))     &trans 		&trans &hm RGUI LBRC  &hm RALT RBRC &hm RCTL PIPE  &kp AMPS
   		&hs LSHIFT TILDE    &kp GRAVE 	&kp LA(LBKT) &kp LA(LS(LBKT))  &to 0 	&to 2 &kp LPRN &kp RPRN &kp RBKT  &kp RSHIFT
 					    &to 0 &trans  					&trans &to 2 
